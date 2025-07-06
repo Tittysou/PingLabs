@@ -85,7 +85,7 @@ export function ApiResponseViewer({ response, isLoading }: ApiResponseViewerProp
         ].map((tab) => (
           <button
             key={tab.id}
-            onClick={() => setActiveTab(tab.id as any)}
+            onClick={() => setActiveTab(tab.id as "response" | "headers" | "raw")}
             className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
               activeTab === tab.id
                 ? "border-blue-400 text-blue-400"

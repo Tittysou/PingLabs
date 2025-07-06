@@ -1,9 +1,9 @@
 "use client"
 
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion"
+import { motion, useMotionValue, useSpring } from "framer-motion"
 import { Zap } from "lucide-react"
 import Link from "next/link"
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef } from "react"
 import { cn } from "@/lib/utils"
 
 export function FloatingHeader() {

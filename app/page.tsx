@@ -109,7 +109,7 @@ export default function HomePage() {
           >
             <h2 className="text-4xl font-bold mb-6">Try it out with example APIs</h2>
             <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-              We've prepared some example APIs for you to test. Click "Try it now" and then "Try Example" to get started instantly.
+              We&apos;ve prepared some example APIs for you to test. Click &quot;Try it now&quot; and then &quot;Try Example&quot; to get started instantly.
             </p>
             
             <div className="grid gap-4 max-w-3xl mx-auto">

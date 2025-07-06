@@ -16,7 +16,7 @@ export interface ApiRequest {
 export interface ApiResponse {
   status: number
   statusText: string
-  data: any
+  data: unknown
   headers: Record<string, string>
   responseTime: number
 }
