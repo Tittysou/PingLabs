@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { ApiRequestBuilder } from "@/components/api-request-builder-new"
+import { ApiRequestBuilder } from "@/components/api-request-builder"
 import { ApiResponseViewer } from "@/components/api-response-viewer"
 
 export interface ApiRequest {
